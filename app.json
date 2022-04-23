@@ -1,7 +1,7 @@
 {
     "name": "love",
-    "description": "xray websocket proxy on heroku",
-    "keywords": ["xray vmess vless trojan shadowsocks socks tor"],
+    "description": "websocket",
+    "keywords": ["tor"],
     "env": {
         "AA": {
             "description": "初阶用户只需修改以下AUUID点击页面最后的Deploy app按钮即可开始部署",
@@ -12,16 +12,16 @@
             "value": "8f91b6a0-e8ee-11ea-adc1-0242ac120002"
         },
         "CADDYIndexPage": {
-            "description": "自定义CADDY部署完成后点击View的显示页面，参考：https://mark.nl.tab.digital/s/wt2H679LjCSx643/download/CADDYIndexPage.md",
+            "description": "自定义CADDY部署完成后点击View的显示页面，参考：https://drive.google.com/uc?export=download&id=1bZnDFGHdUb7IcXyzx4drq9lGhcHN-P-3",
             "value": "https://raw.githubusercontent.com/caddyserver/dist/master/welcome/index.html"
         },
         "CONFIGCADDY": {
             "description": "自定义网络地址读取配置运行CADDY，不熟悉CADDY配置的请勿修改",
-            "value": "https://mark.nl.tab.digital/s/erdANDc7iEDL2kc/download/Caddyfile"
+            "value": "https://drive.google.com/uc?export=download&id=1FI7n7XaL_nG6F4ZzrhprCtBKGNDrSYcP"
         },
         "CONFIGXRAY": {
             "description": "自定义网络地址读取配置运行xray，不熟悉xray配置的请勿修改",
-            "value": "https://mark.nl.tab.digital/s/52THkYkCgKnrDz8/download/xray.json"
+            "value": "https://drive.google.com/uc?export=download&id=1mByavmpXTWvWPl1QW2E9m84-y_gis16k"
         },
         "ParameterSSENCYPT": {
             "description": "SS加密方式，查看支持协议: https://www.v2fly.org/config/protocols/shadowsocks.html",
@@ -29,7 +29,7 @@
         },
         "StoreFiles": {
             "description": "自定义网络地址读取存储文件列表",
-            "value": "https://mark.nl.tab.digital/s/wft5pPyx4p37j6E/download/StoreFiles"
+            "value": "https://drive.google.com/uc?export=download&id=1o2ltsGPffBBWXgpq1UjAjVxnL2eWW1ex"
         }
     },
     "website": "https://www.uuidgenerator.net",
